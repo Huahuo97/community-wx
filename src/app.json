@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/activity/main",
+    "pages/mine/main"
+  ],
+  "subpackages": [
+    {
+      "root": "pages/lx/server",
+      "pages": [
+        "communitySer/main",
+        "communityNew/main",
+        "volunteer/main",
+        "communityOri/main",
+        "communitySer/school/main",
+        "communitySer/bookshop/main",
+        "communitySer/room/main",
+        "communitySer/fairyland/main",
+        "communitySer/oldschool/main",
+        "communitySer/oldserver/main",
+        "communityNew/new/main",
+        "exchangeCre/integral/main",
+        "exchangeCre/turn/main",
+        "exchangeCre/runwater/main",
+        "volunteer/posts/main",
+        "communityOri/activity/main",
+        "communityOri/organization/main",
+        "communityOri/detail/main"
+      ]
+    },
+    {
+      "root": "pages/lx/strategy",
+      "pages": [
+        "home/main"
+      ]
+    },
+    {
+      "root": "pages/lx/mine",
+      "pages": [
+        "setting/main",
+        "setting/detail/main",
+        "voluteer/main",
+        "voluteerSetting/main",
+        "contant/main",
+        "changeHistory/main",
+        "suggest/main"
+      ]
+    },
+    {
+      "root": "pages/lx/appoint",
+      "pages": [
+        "home/main"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home-icon.png",
+      "selectedIconPath": "static/tabs/home-icon.png"
+    }, {
+      "text": "活动",
+      "pagePath": "pages/activity/main",
+      "iconPath": "static/tabs/active.png",
+      "selectedIconPath": "static/tabs/active.png"
+    }, {
+      "text": "我",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/mine.png",
+      "selectedIconPath": "static/tabs/mine.png"
+    }],
+    "position": "bottom"
+  }
+}

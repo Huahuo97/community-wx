@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "温度空间 | 咖啡店",
+  "usingComponents": {
+    "van-popup": "/static/vant/popup/index"
+  }
+}

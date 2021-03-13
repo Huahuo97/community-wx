@@ -1,0 +1,188 @@
+.container {
+  height: 100%;
+  .static_header {
+    position: relative;
+    height: 606rpx;
+    img {
+      width: 100%;
+      height: 606rpx;
+    }
+    .header_main {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .title {
+        position: absolute;
+        top: 88rpx;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 89rpx;
+        line-height: 89rpx;
+        font-size: 32rpx;
+      }
+      .register {
+        position: absolute;
+        top: 162rpx;
+        left: 32rpx;
+        width: 146rpx;
+        height: 76rpx;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .main {
+        position: absolute;
+        top: 227rpx;
+        left: 0;
+        width: 100%;
+        .theme {
+          margin-left: 48rpx;
+          img {
+            width: 594rpx;
+            height: 308rpx;
+          }
+        }
+        .strategy {
+          position: absolute;
+          top: 247rpx;
+          right: 32rpx;
+          z-index: 9;
+          img {
+            width: 44rpx;
+            height: 62rpx;
+          }
+        }
+      }
+    }
+  }
+  .static_main {
+    transform: translateY(-230rpx);
+    width: 100%;
+    background: #fff;
+    border-radius: 50rpx 50rpx 0 0; 
+    .card {
+      position: relative;
+      width: 636rpx;
+      margin: 0 auto 34rpx;
+      .run-water {
+        position: absolute;
+        top: 24rpx;
+        right: 30rpx;
+        width: 176rpx;
+        height: 50rpx;
+        line-height: 50rpx;
+        text-align: center;
+        border-radius: 25rpx;
+        font-size: 24rpx;
+        color: #fff;
+        background-color: #549cdb;
+      }
+      .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 636rpx;
+        height: 307rpx;
+      }
+      .header {
+        height: 46rpx;
+        line-height: 46rpx;
+        padding: 34rpx 0 0 32rpx;
+        margin-bottom: 30rpx;
+        .logo {
+          width: 55rpx;
+          height: 35rpx;
+          vertical-align: middle;
+        }
+        text {
+          font-size: 28rpx;
+          padding-left: 20rpx;
+          color: #fff;
+          font-weight: 600;
+        }
+      }
+      &_id {
+        text-align: right;
+        padding-right: 38rpx;
+        .id {
+          color: #fff;
+          font-size: 32rpx;
+        }
+        .icon {
+          // width: 21rpx;
+          // height: 21rpx;
+          margin-left: 28rpx;
+          vertical-align: middle;
+        }
+      }
+      .bottom {
+        display: flex;
+        .jifen {
+          display: flex;
+          justify-content: space-around;
+          width: 472rpx;
+          padding-top: 52rpx;
+          .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            text {
+              color: #fff;
+              &:first-child {
+                font-size: 20rpx;
+              }
+              &:last-child {
+                font-size: 36rpx;
+                padding-top: 20rpx;
+              }
+            }
+          }
+        }
+        .trans {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 164rpx;
+          padding-top: 46rpx;
+          image {
+            width: 45rpx;
+            height: 45rpx;
+          }
+          text {
+            font-size: 20rpx;
+            color: #fff;
+            padding-top: 20rpx;
+          }
+        }
+      }
+    }
+    .options {
+      width: 686rpx;
+      margin: 0 auto;
+      .items {
+        position: relative;
+        width: 100%;
+        height: 62rpx;
+        line-height: 62rpx;
+        font-size: 24rpx;
+        color: #454343;
+        margin: 39rpx 0;
+        padding-left: 36rpx;
+        &::after {
+          content: '';
+          width: 28rpx;
+          height: 40rpx;
+          line-height: 40rpx;
+          position: absolute;
+          top: 50%;
+          right: 20rpx;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "文竹园之家",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

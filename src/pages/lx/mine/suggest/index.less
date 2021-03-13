@@ -1,0 +1,110 @@
+.container {
+  position: relative;
+}
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 250rpx;
+  text-align: center;
+  background-color: #e5efec;
+  .person {
+    position: absolute;
+    top: 60rpx;
+    right: 100rpx;
+    z-index: 999;
+  }
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 200rpx;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 50rpx 50rpx 0 0;
+  padding-top: 84rpx;
+  // padding-left: 72rpx;
+  .photo {
+    width: 576rpx;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .add {
+      width: 208rpx;
+      height: 104rpx;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 5rpx 5rpx 2rpx #fafafa;
+      .icon {
+        width: 46rpx;
+        height: 46rpx;
+        line-height: 46rpx;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20rpx;
+        color: #868585;
+        border: 2rpx solid #868585;
+      }
+      .text {
+        font-size: 20rpx;
+        color: #868585;
+        padding-top: 16rpx;
+      }
+    }
+  }
+  .apply {
+    width: 576rpx;
+    margin: 0 auto;
+    height: 60rpx;
+    position: relative;
+    margin-bottom: 28rpx;
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 126rpx;
+      height: 60rpx;
+      line-height: 60rpx;
+      text-align: center;
+      font-size: 24rpx;
+      color: #fff;
+      background: linear-gradient(to right, #67b6ee, #63c3e2, #60ccda);
+    }
+  }
+  .title {
+    width: 576rpx;
+    margin: 0 auto 20rpx;
+    input {
+      width: 576rpx;
+      height: 78rpx;
+      line-height: 78rpx;
+      padding-left: 28rpx;
+      font-size: 20rpx;
+      color: #c5c5c5;
+      background-color: #f4f4f4;
+      &::placeholder {
+        font-size: 20rpx;
+        color: #c5c5c5;
+      }
+    }
+  }
+  .suggestion {
+    width: 576rpx;
+    margin: 0 auto;
+    textarea {
+      width: 576rpx;
+      height: 400rpx;
+      padding-left: 28rpx;
+      font-size: 20rpx;
+      color: #c5c5c5;
+      &::placeholder {
+        font-size: 20rpx;
+        color: #c5c5c5;
+      }
+    }
+  }
+}

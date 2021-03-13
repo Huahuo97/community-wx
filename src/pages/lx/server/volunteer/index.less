@@ -1,0 +1,185 @@
+.container {
+  height: 100%;
+  position: relative;
+  .header {
+    width: 100%;
+    height: 250rpx;
+    position: relative;
+    background-color: #daece6;
+    .bg {
+      position: absolute;
+      top: 58rpx;
+      right: 10rpx;
+      width: 505rpx;
+      height: 273rpx;
+      z-index: 1;
+    }
+    .register {
+      position: absolute;
+      top: 26rpx;
+      left: 106rpx;
+      z-index: 9;
+      width: 212rpx;
+      height: 48rpx;
+      border-radius: 24rpx;
+      line-height: 48rpx;
+      text-align: center;
+      background: linear-gradient(to right, #69aff4, #65bae9, #6cd6dd);
+      font-size: 24rpx;
+      color: #fff;
+      .icon {
+        position: absolute;
+        left: -54rpx;
+        top: -50%;
+        z-index: 99;
+        width: 88rpx;
+        height: 88rpx;
+      }
+    }
+    .know {
+      position: absolute;
+      width: 116rpx;
+      height: 52rpx;
+      border-radius: 26rpx;
+      top: 26rpx;
+      right: 60rpx;
+      z-index: 9;
+      line-height: 52rpx;
+      text-align: center;
+      background-color: #37383b;
+      color: #fff;
+      font-size: 24rpx;
+    }
+  }
+  .main {
+    position: absolute;
+    top: 154rpx;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 50rpx 50rpx 0 0;
+    background-color: #fff;
+    .center {
+      width: 686rpx;
+      margin: 0 auto;
+      .lable {
+        margin-top: 28rpx;
+        margin-bottom: 18rpx;
+        display: flex;
+        width: 100%;
+        height: 80rpx;
+        line-height: 80rpx;
+        .item {
+          position: relative;
+          width: 50%;
+          height: 100%;
+          text-align: center;
+          font-size: 24rpx;
+          color: #454343;
+          image {
+            vertical-align: text-top;
+          }
+          text {
+            padding-left: 16rpx;
+          }
+          .border {
+            width: 50rpx;
+            height: 5rpx;
+            background-color: #90c1a5;
+            position: absolute;
+            bottom: 2rpx;
+            left: 50%;
+            // transform: translateX(-50%);
+          }
+        }
+      }
+      .sports {
+        width: 100%;
+        display: flex;
+        // justify-content: space-around;
+        flex-wrap: wrap;
+        .item {
+          position: relative;
+          width: 338rpx;
+          height: 476rpx;
+          &:nth-child(odd) {
+            margin-right: 10rpx;
+          }
+          .sport-img {
+            width: 338rpx;
+            height: 312rpx;
+            background-color: #f4f4f4;
+            border-radius: 20rpx;
+            image {
+              width: 338rpx;
+              height: 312rpx;
+            }
+          }
+          .info {
+            width: 100%;
+            height: 164rpx;
+            padding-left: 24rpx;
+            display: flex;
+            flex-direction: column;
+            .name {
+              padding-top: 25rpx;
+              font-weight: bold;
+              font-size: 24rpx;
+              color: #4f4c4c;
+            }
+            .make {
+              padding-top: 54rpx;
+              font-size: 20rpx;
+              color: #bebdbd;
+            }
+          }
+          .apply {
+            position: absolute;
+            bottom: 28rpx;
+            right: 28rpx;
+            width: 124rpx;
+            height: 60rpx;
+            line-height: 60rpx;
+            border-radius: 30rpx;
+            text-align: center;
+            font-size: 24rpx;
+            color: #474949;
+            border: 1rpx solid #474949;
+          }
+        }
+      }
+      .posts {
+        width: 100%;
+        .item {
+          position: relative;
+          width: 100%;
+          height: 142rpx;
+          border-radius: 68rpx;
+          margin-bottom: 15rpx;
+          font-size: 24rpx;
+          color: #454343;
+          background-color: #f4f4f4;
+          // padding: 36rpx 0 0 42rpx;
+          text {
+            position: absolute;
+            top: 36rpx;
+            left: 42rpx;
+          }
+          .apply {
+            position: absolute;
+            top: 36rpx;
+            right: 28rpx;
+            width: 124rpx;
+            height: 60rpx;
+            line-height: 60rpx;
+            border-radius: 30rpx;
+            text-align: center;
+            font-size: 24rpx;
+            color: #474949;
+            border: 1rpx solid #474949;
+          }
+        }
+      }
+    }
+  }
+}

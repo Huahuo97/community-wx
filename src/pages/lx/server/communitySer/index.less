@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  height: 100%;
+  background-color: #ecf7f3;
+  .image {
+    position: absolute;
+    width: 550rpx;
+    height: 273rpx;
+    top: 28rpx;
+    left: 50%;
+    z-index: 99;
+    transform: translateX(-50%);
+  }
+  .main {
+    position: absolute;
+    top: 162rpx;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50rpx 50rpx 0 0;
+    padding-top: 60rpx;
+    .image {
+      position: absolute;
+      left: 152rpx;
+      top: -108rpx;
+      z-index: 9999;
+      width: 114rpx;
+      height: 143rpx;
+    }
+    .item {
+      width: 640rpx;
+      height: 185rpx;
+      margin: 0 auto 22rpx;
+      background-color: #f4f4f4;
+      border-radius: 20rpx 20rpx 0 0;
+      padding: 30rpx 0 0 32rpx;
+      color: #454343;
+      font-size: 24rpx;
+    }
+  }
+}

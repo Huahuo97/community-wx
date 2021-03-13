@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+}
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 250rpx;
+  text-align: center;
+  background-color: #e5efec;
+  .person {
+    position: absolute;
+    top: 38rpx;
+    right: 100rpx;
+    z-index: 999;
+  }
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 200rpx;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 50rpx 50rpx 0 0;
+  .center {
+    width: 686rpx;
+    margin: 0 auto;
+    padding-top: 70rpx;
+    .help {
+      font-size: 28rpx;
+      color: #454343;
+      height: 88rpx;
+      line-height: 88rpx;
+      padding-left: 66rpx;
+      margin-bottom: 15rpx;
+    }
+    .answer {
+      width: 100%;
+      .title {
+        font-size: 24rpx;
+        color: #454343;
+        height: 60rpx;
+        line-height: 60rpx;
+        text-align: center;
+      }
+    }
+  }
+}
